@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
+    "build": "webpack --watch",
     "start": "python app.py"
   },
   "author": "",
@@ -18,7 +18,13 @@
     "webpack": "^1.12.12"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
+    "node-vibrant": "^3.0.0",
+    "npm-watch": "^0.4.0",
     "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react-color-extractor": "^1.1.2",
+    "react-dom": "^0.14.7",
+    "unsplash-js": "^4.8.0"
   }
 }
